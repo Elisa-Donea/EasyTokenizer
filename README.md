@@ -1,2 +1,2 @@
 # EasyTokenizer
-Simple Tokenizer, This project is not for real-word use, it is a personal project created for practice and learning.
+Simple Tokenizer, This project is not for real-word use, it is a personal project created for practice and learning. Heavily based on The GPT-2 tokenizer, Karpathy's work on Tokenizer and explaining Open-Ai tokenizers, SentencePiece papers, and others (will add references later)
