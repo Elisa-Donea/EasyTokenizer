@@ -1,0 +1,6 @@
+[project]
+name = "EasyTokenizer"
+readme = "README.md"
+
+[project.scripts]
+core = "core.CLI:main"
