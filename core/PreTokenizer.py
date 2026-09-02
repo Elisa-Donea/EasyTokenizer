@@ -2,6 +2,7 @@ import re
 
 _SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?])\s+")
 _TOKEN_BOUNDARY = re.compile(r"(\s*)(\w+(?:'\w+)*|[^\w\s])")
+#GPT-2 TOKENIZER REG : r"""'s|'t|'re|'ve|'m|'ll|'d| ?[\p{L}]+| ?[\p{N}]+| ?[^\s\p{L}\p{N}]+|\s+(?!\S)|\s+"""
 
 def tokenize_words(text: str) -> list[str]:
     stripped = text.strip()
